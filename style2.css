@@ -716,7 +716,7 @@ span {
 
   .BG {
     position: fixed;
-    background-image: url("images/BG_mobile.png");
+    background-image: url("../images/BG_mobile.png");
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
     position: fixed;
@@ -784,6 +784,11 @@ span {
 
   .vwiddmobilediv {
     display: block !important;
+    height: 195vh;
+  }
+
+  .graph1 {
+    padding-top: 8vh;
   }
 
   .graph1 section {
@@ -854,6 +859,11 @@ span {
     background-color: black;
     padding: 0.5em;
     margin-top: 5vh;
+  }
+
+  .graph3 {
+    padding-top: 30vh !important;
+    margin-top: -30vh;
   }
 
   .graph3 section {
