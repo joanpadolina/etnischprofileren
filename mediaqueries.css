@@ -1,0 +1,142 @@
+
+
+/* graph 3*/
+
+@media (max-width: 755px) {
+
+    svg.bubble-plot,
+    .selection-values1,
+    .form1 {
+        display: none;
+    }
+
+
+    .form2 form h2 {
+        font-size: .9em;
+    }
+
+    .form2 form {
+        left: 0vw;
+    }
+
+    .form2 form h2 {
+        width: 45vw;
+        margin-bottom: 0;
+        padding: 1em 0;
+
+    }
+
+    .form2 label {
+        margin: 0.2em;
+        padding: 0.4em;
+        width: 45vw;
+    }
+
+    .colorbuttons label {
+        width: 2em;
+
+    }
+    .graph3 {
+        height: 260vh;
+    }
+
+    .discriptionvertrouwen {
+        width: 90vw;
+    }
+
+    .nietnltext {
+      left: 0;
+      width: 100vw;
+    }
+
+    .nietnltext h3 {
+      width: 100%;
+    }
+
+
+    .nietnltext p {
+        font-size: em;
+        margin-bottom: -11vh;
+    }
+
+    .form1 form h2 {
+        font-size: .6em;
+    }
+
+    .form1 form {
+        left: 0vw;
+        top: 0vh;
+    }
+
+
+}
+
+
+
+@media(min-width: 20em) and (max-width: 47em) {
+
+    #my_dataviz {
+      width: 100vw;
+      margin: 0;
+      top: 35vh !important;
+    }
+
+    .ruimte {
+      margin-top: 0vh;
+    }
+
+    svg.bubble-plot2 {
+      left: 18vw;
+    }
+
+    .form2 h2 {
+      position: relative;
+    }
+
+    .discription1 {
+        width: 90vw;
+        left: 1vw;
+    }
+
+    .form1 form h2 {
+        font-size: .9em;
+    }
+
+    .form1 {
+        top: 0vh;
+    }
+
+    .form1 form h2 {
+        width: 19em;
+        left: 0;
+        top: 0;
+        margin: auto;
+    }
+
+    .legendatext {
+      display: none;
+    }
+}
+
+
+@media(min-width: 1445px) {
+    #my_dataviz{
+        top:1vh;
+    }
+    .textlaag{
+
+    }
+    .txtbeoordeeld{
+        top:-10vh;
+    }
+
+}
+
+
+
+@media (min-width:1024px) {
+
+    #my_dataviz {
+        left: 0vw;
+    }
+}

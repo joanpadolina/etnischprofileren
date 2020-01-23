@@ -1,0 +1,409 @@
+
+svg.bubble-plot {
+    display: block;
+    position: relative;
+    color: black;
+}
+
+svg.bubble-plot2 {
+    display: block;
+    position: relative;
+    color: black;
+    width: 100vw !important;
+}
+
+#my_dataviz {
+    display: block;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 30vw;
+    margin-left: 35vw;
+    margin-right: 35vw;
+    top: 10vh !important;
+}
+
+.graph3 {
+  text-align: left !important;
+}
+
+.content {
+    display: block;
+    position: relative;
+    left: 2vw;
+}
+
+.selection-values {
+    position: relative;
+    display: block;
+    top: -98vh;
+}
+
+.selection-values2 {
+    position: relative;
+    display: block;
+    top: -104em;
+    left: 56em
+}
+
+.contact-values {
+    position: relative;
+    display: block;
+    top: -96em;
+}
+
+.contact-values2 {
+    position: relative;
+    display: block;
+    top: -102em;
+    left: 56em;
+}
+
+.totstand-values {
+    position: relative;
+    display: block;
+    top: -90em;
+
+}
+
+.totstand-values2 {
+    position: relative;
+    display: block;
+    top: -96em;
+    left: 56em;
+
+}
+
+.resultaat-values {
+    position: relative;
+    display: block;
+    top: -95em;
+}
+
+.resultaat-values2 {
+    position: relative;
+    display: block;
+    top: -101em;
+    left: 56em;
+
+}
+
+.text {
+    color: white;
+    position: relative;
+    display: block;
+    top: -55em;
+}
+
+.text>p {
+    float: left;
+    margin-left: 1em;
+
+}
+
+.totstand-txt {
+    left: 15em;
+    position: relative;
+    display: block;
+
+}
+
+.resultaat-txt {
+    left: 29em;
+    position: relative;
+    display: block;
+}
+
+.domain,
+.tick line,
+.tick {
+    stroke: white;
+}
+
+.highlight {
+    background: #ff0000;
+    position: relative;
+    width: 23.5em;
+    height: 2em;
+    /* transform: translate(2.9em, -26em); */
+    z-index: -1;
+    transform: translateZ(-2px) translate(7.9em, -31em) scale(1.27);
+}
+
+div.tooltip {
+    position: absolute;
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: .9em;
+    font: 12px sans-serif;
+    background: lightsteelblue;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+    box-shadow: 0px 0px 6px 3px rgba(0, 0, 0, 0.40);
+    z-index: 99;
+}
+
+.logo {
+    width: 10em;
+}
+
+.formsdiv {
+  width: 90vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  top: 0;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  z-index: -1;
+}
+
+.form1,
+.form2 {
+    position: relative;
+    display: block;
+    top: 0 !important;
+    left: 0 !important;
+}
+
+.form2 {
+    position: relative;
+}
+
+.form1 h2, .form2 h2 {
+  position: absolute;
+  width: 15vw;
+}
+
+#herkomst-radio,
+#herkomst-radio2 {
+    color: white;
+    position: relative;
+    font-size: 0.9em;
+    display: inline-block;
+
+}
+
+form h2 {
+    font-family: RobotoLight;
+    font-size: 0.9em;
+    padding: 0.6em;
+    color: rgb(212, 214, 197);
+    position: relative;
+    text-align: left;
+    width: 13vw;
+}
+
+span {
+    font-weight: 800;
+}
+
+#herkomst-radio2>input[type="radio"]:checked+label {
+    font-weight: 500;
+    font-family: RubikBold;
+    color: white;
+    background: rgba(4, 0, 255, 0.514);
+}
+
+#herkomst-radio>input[type="radio"]:checked+label {
+    font-weight: 500;
+    font-family: RubikBold;
+    color: white;
+    background: rgba(255, 255, 0, 0.514);
+}
+
+input {
+    visibility: hidden;
+    position: absolute;
+}
+
+label {
+    cursor: pointer;
+    padding: .3em;
+    background: #3e3c3fab;
+    margin: 0.34em;
+    width: 16em;
+    display: inline-block;
+    padding: 0.5em;
+    font-size: 1em;
+    font-family: RobotoLight;
+    border-radius: 0.3em;
+    transition: 200ms ease;
+    text-align: center;
+    font-weight: 100;
+    position: relative;
+}
+
+.labelsleft {
+  margin-left: 15vw;
+}
+
+.labelsright {
+  margin-left: -15vw;
+}
+
+.ruimte {
+    margin-top: 6vh;
+}
+
+.ruimte2 {
+    margin-top: 10vh;
+}
+
+.form1 label:hover {
+    background: rgba(255, 255, 0, 0.603);
+    color: black;
+}
+
+.form2 label:hover {
+    background: rgba(0, 17, 255, 0.616);
+}
+
+.header {
+    top: -3em;
+    display: block;
+    position: relative;
+    left: -30em;
+}
+
+
+.totaltext {
+    display: inline-block;
+    position: relative;
+    top: -81.4em;
+}
+
+.vertrouwen {
+    display: block;
+    position: relative;
+    margin-top: 10vh;
+}
+
+.bear {
+    display: block;
+    position: relative;
+    top: 48em;
+}
+
+span {
+    font-family: RubikBold;
+
+}
+
+.colorbuttons {
+    left: 2.3em;
+    position: relative;
+    top: 6em;
+
+}
+
+.colorbuttons p {
+    top: 1.2em;
+    position: relative;
+    left: -2.1em;
+}
+
+.colorbuttons>label {
+    width: 3em;
+    margin: -.5em;
+    top: 2em;
+    display: inline-block;
+    position: relative;
+    border-radius: 10em;
+    left: 1.2em;
+
+}
+
+label.white {
+    background: white;
+}
+
+label.rood {
+    background: red;
+}
+
+label.blauw {
+    background: blue;
+}
+
+label.geel {
+    background: yellow;
+}
+
+.colorbuttons input[type="radio"]:checked+label {
+    border: 2px solid white;
+
+}
+
+h3 {
+    font-family: RubikBold;
+}
+
+.nietnltext h3 {
+    font-family: RubikBold;
+    color: rgb(19, 89, 241);
+    width: 11em;
+    text-align: left;
+}
+
+.nederlandtxt h3 {
+    width: 1em;
+    color: yellow;
+}
+
+.nederlandtxt {
+    height: 18vh;
+    display: block;
+    position: relative;
+    margin-left: 15vw;
+}
+
+.nietnltext {
+    position: relative;
+    height: 18vh;
+    left: -15vw;
+}
+
+.first,
+.second {
+    text-align: left;
+    font-size: 1.4em;
+    color: white;
+    font-family: RubikBold;
+    top: -1em;
+    position: relative;
+}
+
+.legendatext {
+    width: 100vw;
+    text-align: center;
+    padding-top: 8vh;
+    position: absolute;
+}
+
+p.txtbeoordeeld,
+p.textlaag {
+    font-size: 0.8em;
+}
+
+p.textlaag {
+    margin-top: 40vw;
+}
+
+.bear img {
+    width: 5em;
+
+}
+
+.bear {
+    position: relative;
+    top: -6vh;
+    height: 1vh;
+}
+
+
+.graph3 {
+    height: 180vh;
+}
